@@ -54,6 +54,10 @@ main {
   margin-left: 10px;
 }
 
+.chart-table .country-flag {
+  width: 70px;
+}
+
 .chart-table tbody td:nth-child(1) {
   font-weight: bold;
 }
