@@ -8,6 +8,11 @@ main {
   padding: 5px 10px 15px 10px;
 }
 
+.schedule-title-table {
+  color: #5f5f5f;
+  text-align: center;
+}
+
 .schedule-table {
   width: 100%;
   text-align: center;
@@ -15,11 +20,6 @@ main {
   border: 1px solid #ccc;
   border-radius: 10px;
   overflow: hidden;
-}
-
-.schedule-title-table {
-  color: #5f5f5f;
-  text-align: center;
 }
 
 .schedule-table thead {
