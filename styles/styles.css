@@ -27,14 +27,24 @@ table tbody {
 table tbody th {
   color: #1272f2;
   padding: 10px;
+  border: 1px solid #eaeaea;
 }
 
 table tbody td {
-  padding: 10px;
+  padding: 15px;
+  border: 1px solid #eaeaea;
+}
+
+table th {
+  border: 1px solid;
 }
 
 h2 {
   text-align: center;
+}
+
+.table-title {
+  color: #606060;
 }
 
 #caption-table {

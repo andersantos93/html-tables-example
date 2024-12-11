@@ -8,46 +8,46 @@
   </head>
   <body>
     <main>
-      <h2>Semester II Schedule</h2>
+      <h2 class="table-title">Semester II Schedule</h2>
       <table aria-label="Semester II Schedule">
         <caption id="caption-table">
           Fig: Semester 2 Course Schedule
         </caption>
         <thead>
           <tr>
-            <th>Course</th>
-            <th colspan="2">Time</th>
-            <th>Room</th>
-            <th>Day</th>
+            <th id="course" scope="col">Course</th>
+            <th id="time" scope="colgroup" colspan="2">Time</th>
+            <th id="room" scope="col">Room</th>
+            <th id="day" scope="col">Day</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th rowspan="2">English II</th>
-            <td>9:00</td>
-            <td>11:00</td>
-            <td>L2201</td>
-            <td>Monday</td>
+            <th id="course" scope="rowgroup" rowspan="2">English II</th>
+            <td headers="course time ">9:00</td>
+            <td headers="course time">11:00</td>
+            <td headers="room">L2201</td>
+            <td headers="day">Monday</td>
           </tr>
           <tr>
-            <td>9:00</td>
-            <td>11:00</td>
-            <td>L2201</td>
-            <td>Wednesday</td>
+            <td headers="course time">9:00</td>
+            <td headers="course time">11:00</td>
+            <td headers="room">L2201</td>
+            <td headers="day">Wednesday</td>
           </tr>
           <tr>
-            <th>Geography</th>
-            <td>11:00</td>
-            <td>12:45</td>
-            <td>G107</td>
-            <td>Tuesday</td>
+            <th id="course" scope="row">Geography</th>
+            <td headers="time">11:00</td>
+            <td headers="time">12:45</td>
+            <td headers="room">G107</td>
+            <td headers="day">Tuesday</td>
           </tr>
           <tr>
-            <th>Biology</th>
-            <td>9:00</td>
-            <td>11:00</td>
-            <td>B302</td>
-            <td>Friday</td>
+            <th id="course">Biology</th>
+            <td headers="time">9:00</td>
+            <td headers="time">11:00</td>
+            <td headers="room">B302</td>
+            <td headers="day">Friday</td>
           </tr>
         </tbody>
       </table>
