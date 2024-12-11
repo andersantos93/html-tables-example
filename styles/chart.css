@@ -26,12 +26,36 @@ main {
   height: 45px;
 }
 
+.chart-table thead th {
+  border: 1px solid;
+}
+
 .chart-table tbody {
   background-color: #fff;
 }
 
+.chart-table tbody td {
+  padding: 15px;
+  border: 1px solid #eaeaea;
+}
+
+.chart-table .image-column {
+  text-align: left;
+}
+
 .chart-table .player-image {
   width: 60px;
+  position: relative;
+}
+
+.chart-table .player-name {
+  position: absolute;
+  margin-top: 28px;
+  margin-left: 10px;
+}
+
+.chart-table tbody td:nth-child(2) {
+  width: 40%;
 }
 
 .chart-caption-table {

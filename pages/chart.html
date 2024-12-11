@@ -8,73 +8,79 @@
   </head>
   <body>
     <main>
-      <h4 class="chart-title-table" id="chart">Tennis Players - Rank 2024</h4>
-      <table class="chart-table" aria-label="Chart" aria-labelledby="chart">
+      <h4 class="chart-title-table" id="tennis-players-rank">
+        Tennis Players - Rank 2024
+      </h4>
+      <table
+        class="chart-table"
+        aria-label="Tennis Players Rank 2024"
+        aria-labelledby="tennis-players-rank"
+      >
         <caption class="chart-caption-table">
           Fig: Tennis players and their characteristics.
         </caption>
         <thead>
           <tr>
-            <th>Rank</th>
-            <th>Player</th>
-            <th>Country</th>
-            <th>Age</th>
-            <th>Official points</th>
+            <th id="rank" scope="col">Rank</th>
+            <th id="player" scope="col">Player</th>
+            <th id="country" scope="col">Country</th>
+            <th id="age" scope="col">Age</th>
+            <th id="official-points" scope="col">Official points</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>1</td>
-            <td>
+            <td headers="rank">1</td>
+            <td headers="player" class="image-column">
               <img src="../images/sinner_head_2024.png" class="player-image" />
-              <span>Jannik Sinner</span>
+              <span class="player-name">Jannik Sinner</span>
             </td>
-            <td>Italy</td>
-            <td>23</td>
-            <td>11,830</td>
+            <td headers="country">Italy</td>
+            <td headers="age">23</td>
+            <td headers="official-points">11,830</td>
           </tr>
           <tr>
-            <td>2</td>
-            <td>
+            <td headers="rank">2</td>
+            <td headers="player" class="image-column">
               <img src="../images/zverev_head_2024.png" class="player-image" />
-              <span>Alexander Zverev</span>
+              <span class="player-name">Alexander Zverev</span>
             </td>
-            <td>Germany</td>
-            <td>27</td>
-            <td>7,915</td>
+            <td headers="country">Germany</td>
+            <td headers="age">27</td>
+            <td headers="official-points">7,915</td>
           </tr>
           <tr>
-            <td>3</td>
-            <td>
+            <td headers="rank">3</td>
+            <td headers="player" class="image-column">
               <img src="../images/alcaraz_head_2024.png" class="player-image" />
-              <span>Carlos Alcaraz</span>
+              <span class="player-name">Carlos Alcaraz</span>
             </td>
-            <td>Spain</td>
-            <td>21</td>
-            <td>7,010</td>
+            <td headers="country">Spain</td>
+            <td headers="age">21</td>
+            <td headers="official-points">7,010</td>
           </tr>
           <tr>
-            <td>4</td>
-            <td>
+            <td headers="rank">4</td>
+            <td headers="player" class="image-column">
               <img src="../images/fritz_head_2024.png" class="player-image" />
-              <span>Taylor Fritz</span>
+              <span class="player-name">Taylor Fritz</span>
             </td>
-            <td>United States</td>
-            <td>27</td>
-            <td>5,100</td>
+            <td headers="country">United States</td>
+            <td headers="age">27</td>
+            <td headers="official-points">5,100</td>
           </tr>
           <tr>
-            <td>5</td>
-            <td>
+            <td headers="rank">5</td>
+            <td headers="player" class="image-column">
               <img
                 src="../images/medvedev_head_2024.png"
                 class="player-image"
               />
-              <span>Danill Medvedev</span>
+              <span class="player-name">Danill Medvedev</span>
             </td>
-            <td>Russia</td>
-            <td>28</td>
-            <td>5,030</td>
+            <td headers="country">Russia</td>
+            <td headers="age">28</td>
+            <td headers="official-points">5,030</td>
           </tr>
         </tbody>
       </table>
