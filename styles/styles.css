@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 main {
@@ -33,10 +34,12 @@ table tbody th {
 table tbody td {
   padding: 15px;
   border: 1px solid #eaeaea;
+  color: #848484;
 }
 
 table th {
   border: 1px solid;
+  font-size: 15px;
 }
 
 h2 {
@@ -44,11 +47,12 @@ h2 {
 }
 
 .table-title {
-  color: #606060;
+  color: #5f5f5f;
 }
 
 #caption-table {
   caption-side: bottom;
   font-style: italic;
   margin-top: 5px;
+  font-size: 12px;
 }
